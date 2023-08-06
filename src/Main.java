@@ -21,6 +21,7 @@ public class Main {
     }
 
     public static void task1() {
+        System.out.println("Домашнее задание №9");
         System.out.println("");
         System.out.println("============================");
         System.out.println("======= Задача 1 ===========");
@@ -61,11 +62,10 @@ public class Main {
         System.out.println("============================");
         int[] arr = generateRandomArray();
         float sum = 0;
-        int days = 30;
         for (int i = 0; i < arr.length; i++) {
             sum = sum + arr[i];
         }
-        float middleMoney = sum / days;
+        float middleMoney = sum / arr.length;
 
         System.out.println("Средняя сумма трат за месяц составила " + middleMoney + " рублей");
         System.out.println("===== Конец задачи 3 =======");
